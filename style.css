@@ -13,6 +13,10 @@ main{
     align-items: center;
 }
 
+label{
+    color: #2D3142;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -20,8 +24,8 @@ main{
     align-items: center;
     width: 400px;
     height: 600px;
-    background-color: #555;
-    border-radius: 50px;    
+    background-color: #D8D5DB;
+    border-radius: 20px;    
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
 }
 
@@ -29,13 +33,14 @@ main{
     font-size: 30px;
     font-weight: 700;
     padding-bottom: 10px;
-    border-bottom: 3px black solid;
+    border-bottom: 3px #2D3142 solid;
     display: flex;    
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 50px;
     margin-bottom: 20px;
+    color: #2D3142;
 }
 
 .input {
@@ -61,28 +66,30 @@ main{
     text-align: center;
     font-weight: 700;
     font-size: 16px;
+    color: #2D3142;
 }
 
 button {
-    border: 2px solid black;
+    border: 2px solid #2D3142;
     font-size: 20px;
     padding: 10px;
     background: none;
     font-weight: 700;
     cursor: pointer;
     transition: 0.2s;
+    color: #2D3142;
 }
 
 button:hover{
-    border: 2px solid white;
-    color: white;
+    border: 2px solid black;
+    color: black;
 }
 
 .result {
     display: flex;
     margin-top: 20px;
     align-items: center;
-    background-color:black;
+    background-color: #2D3142;
     width: 300px;
     height: 150px;
     border-radius: 5px;
